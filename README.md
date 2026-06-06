@@ -21,7 +21,7 @@ class RamkumarManikavasagam:
         self.location      = "Tamil Nadu, India"
         self.degree        = "M.Sc. Software Engineering, Anna University"
         self.role          = "IT Network Engineer"
-        self.certifications = ["CCNP", "CCNA", "ISC2 CC Cloud Pre-Assessment"]
+        self.certifications = ["CCNP", "CCNA", "ISC2 CC Cloud Pre-Assessment", AWS, Cyber security]
 
         self.stack = {
             "routing":  ["BGP", "OSPF", "EIGRP", "MPLS", "MPBGP"],
@@ -35,6 +35,7 @@ class RamkumarManikavasagam:
             "Cloud Security (ISC2 CC)",
             "Azure Networking & Hybrid Architectures",
             "Network Automation with Python",
+            "Cyber security"
         ]
 
         self.fun_fact = "I deployed a VPN for the Government of India 🇮🇳"
