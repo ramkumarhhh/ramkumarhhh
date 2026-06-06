@@ -1,0 +1,24 @@
+# Enterprise Secure Hybrid Cloud on AWS
+
+## 📌 Executive Summary
+This repository contains the infrastructure-as-code (IaC) configuration for an enterprise-grade, secure, multi-tier network topology deployed within AWS (Stockholm Region). It features automated incident response, strict network segmentation, and proactive compliance monitoring.
+
+## 🚀 Key Features & Cybersecurity Implementations
+* **Multi-AZ Infrastructure:** Designed using Terraform to guarantee high availability and fault tolerance.
+* **Zero-Trust Network Architecture:** Public/Private subnet separation mimicking legacy enterprise DMZs with strict stateful security groups.
+* **Automated Threat Incident Response:** Integration of AWS GuardDuty and AWS Lambda to automatically isolate compromised infrastructure within 30 seconds of threat identification.
+* **IAM Hardening:** Enforced boundary policies and absolute Least Privilege access metrics across all provisioned roles.
+
+## 🛠️ Tech Stack
+* **Cloud Provider:** Amazon Web Services (AWS)
+* **Infrastructure as Code:** Terraform
+* **Security Monitoring:** AWS GuardDuty, AWS CloudTrail, Amazon CloudWatch
+* **Automation Language:** Python (Boto3 / AWS Lambda)
+
+## 📐 Network Topology
+*(Insert your architecture diagram image link here)*
+
+## 🔧 How to Deploy
+1. Clone this repository: `git clone https://github.com`
+2. Initialize Terraform: `terraform init`
+3. Deploy the architecture: `terraform apply --auto-approve`
